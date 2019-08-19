@@ -41,6 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
         name3.textContent = inputP3.value;
         name4.textContent = inputP4.value;
 
+        topLeft.classList.remove("blur");
+        topRight.classList.remove("blur");
+        bottomLeft.classList.remove("blur");
+        bottomRight.classList.remove("blur");
+
         popupDiv.remove();
     });
     // console.dir(topLeft.children[1]);

@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    
 }
 #root {
     height: 100vh;
@@ -13,12 +14,14 @@ html, body {
 }
 #pop-up {
     position: absolute;
-    width: 225px;
+    /* width: 100vw;
+    height: 100vh; */
     left: calc(50% - 100px);
-    top: calc(50% - 100px);
+    top: calc(50% - 100px); 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 input {
     padding: 10px 5px;
@@ -37,6 +40,9 @@ h1, p {
     padding: 10px;
     text-align: center;
     color: white;
+}
+.blur {
+    filter: blur(3px);
 }
 /* 
 #top-left {
