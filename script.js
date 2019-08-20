@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     inputP2.placeholder = "Player 2";
     inputP3.placeholder = "Player 3";
     inputP4.placeholder = "Player 4";
+    inputP1.setAttribute("autofocus", "true");
     button.innerText = "Submit";
     button.setAttribute("id", "submit-btn")
 

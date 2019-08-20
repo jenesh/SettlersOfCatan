@@ -3,7 +3,6 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
-    
 }
 #root {
     height: 100vh;
@@ -16,24 +15,39 @@ html, body {
     position: absolute;
     /* width: 100vw;
     height: 100vh; */
-    left: calc(50% - 100px);
-    top: calc(50% - 100px); 
+    left: calc(50% - 115px);
+    top: calc(50% - 120px); 
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background: rgb(1, 14, 88);
+    box-shadow: -2px 2px 15px 5px gray;
+    color: white;
+    border-radius: 5px;
 }
 input {
     padding: 10px 5px;
-    margin: 5px 0;
-    border-bottom: 1px solid black;
+    margin: 10px 10px;
+    /* border-bottom: 1px solid black; */
     width: 200px;
     font-size: 1.1rem;
     text-align: center;
+    /* background: url('https://wallpaperaccess.com/full/340588.png'); */
+    background: rgb(4,46,154);
+    background: linear-gradient(180deg, rgb(2, 35, 119) 0%, rgba(47, 123, 238, 0.8) 68%);
+    color: white;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+}
+input::placeholder {
+    color: white;
 }
 #submit-btn {
     padding: 10px;
     border-radius: 10px;
+    margin: 10px;
 }
 h1, p {
     text-shadow: -2px 1px 5px rgb(11, 59, 31);
@@ -41,8 +55,11 @@ h1, p {
     text-align: center;
     color: white;
 }
+.player-section {
+    border: none;
+}
 .blur {
-    filter: blur(3px);
+    filter: blur(1px);
 }
 /* 
 #top-left {
