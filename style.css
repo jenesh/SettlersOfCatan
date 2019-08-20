@@ -48,6 +48,8 @@ input::placeholder {
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
+    font-size: 1.1rem;
+    font-weight: 900;
 }
 h1, p {
     text-shadow: -2px 1px 5px rgb(11, 59, 31);
